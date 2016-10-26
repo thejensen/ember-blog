@@ -1,0 +1,20 @@
+{ "posts": [{
+  "title": "Mt. Adams",
+  "content": "My first summit on a glaciated peak was on Mt. Adams. This challenged me. It was cold and windy, but the feeling was incredible. I'd never been so high.",
+  "partners": "Sam and Stacia",
+  "song": "Video by India Arie",
+  "image": "http://1.bp.blogspot.com/-0vaQ-vf7RJ4/Th0aKzXvk9I/AAAAAAAAFrk/i68xBI-soxQ/s1600/Gloves+and+Chutes.jpg"
+  }, {
+  "title": "Unicorn, Castle-Pinnacle Traverse",
+  "content": "My first technical summit was Unicorn Peak in the Tatoosh Range. The following day we scrambled up Castle and Pinnacle. There was lightning and a killer view of Mt. Ranier.",
+  "partners": "Josh, Celia, Ryan, Sharon, Denara",
+  "song": "Apply Some Pressure by Mark Ronson",
+  "image": ""
+  }, {
+  "title": "Mt. Hood",
+  "content": "The night was clear, and Casseiopia framed the moonlit summit of Mt. Hood. Sun rose when we reached the Hogsback at about 9000ft. The summit cast a shadow on the atmosphere itself, its dark pink triangle tip bowing up over a sea of clouds at 7000ft.",
+  "partners": "Jay, Etta, Marshall, etc. A big group.",
+  "song": "Build Me Up Buttercup by The Temptations",
+  "image": ""
+  }]
+}
