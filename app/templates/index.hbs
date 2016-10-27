@@ -7,6 +7,8 @@
   <p>{{post.content}}</p>
   <h4>Climbed with: {{post.partners}}</h4>
   <h4>Earworm: {{post.song}}</h4>
-  <img src={{post.image}} alt={{post.title}} />
+  <img src={{post.image}} alt={{post.title}}/>
+  {{update-post post=post update="update"}}
+  <button {{action 'destroy' post}}>Delete</button>
   <hr>
 {{/each}}
