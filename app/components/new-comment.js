@@ -7,7 +7,7 @@ export default Ember.Component.extend({
       this.set('addNewComment', true);
     },
     cancel() {
-      this.set('addNewComment', true);
+      this.set('addNewComment', false);
     },
     saveComment() {
       var params = {

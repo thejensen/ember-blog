@@ -1,23 +1,14 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
 <div class= "container">
   <div class="page-header">
-    <h1>Life is Good<br><small>But I'd rather be climbing</small></h1>
+    {{#link-to 'index'}}<h1>Life is Good<br><small>But I'd rather be climbing</small></h1>{{/link-to}}
   </div>
     {{outlet}}
   <hr>
-  <footer>
+</div>
+<footer class="footer">
+  <div class="container footer-links">
     {{#link-to 'index'}}Home{{/link-to}} |
     {{#link-to 'contact'}}Be in touch!{{/link-to}} |
     {{#link-to 'about'}}About{{/link-to}}
-  </footer>
-</div>
+  </div>
+</footer>
