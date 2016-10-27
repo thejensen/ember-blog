@@ -1,15 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updatePostForm: false,
+  addNewPost: false,
   actions: {
-    updatePostForm() {
-      this.set('updatePostForm', true);
+    postFormShow() {
+      this.set('addNewPost', true);
     },
     cancel() {
-      this.set('updatePostForm', false);
+      this.set('addNewPost', false);
     },
-    update(post) {
+    savePost() {
       var params = {
         title: this.get('title'),
         content: this.get('content'),
@@ -17,8 +17,8 @@ export default Ember.Component.extend({
         song: this.get('song'),
         image: this.get('image')
       };
-      this.set('updatePostForm', false);
-      this.sendAction('update', post, params);
+      this.set('addNewPost', false);
+      this.sendAction('savePost', params)
     }
   }
 });

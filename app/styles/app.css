@@ -1,18 +1,29 @@
 .page-header {
-  background-color: rgba(255, 255, 255, 0.7);
+  color: white;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
   text-align: center;
-  padding: 1%;
-  width: 400px;
-  border-radius: 400px;
+}
+
+.navbar-default {
+  background-color: seashell;
 }
 
 img {
   width: 400px;
+  border: 2px solid black;
 }
 
 .post {
-  background-color: white;
+  background-color: snow;
   padding: 5%;
+}
+
+.comment, .update {
+  padding: 3px;
 }
 
 body {
@@ -21,10 +32,10 @@ body {
   margin: 5%;
 }
 
-h1, h2, .navbar, button {
+h1, h2, h3, h4, h5, .navbar, button {
   font-family: 'Raleway', sans-serif;
 }
 
-h4, h5, p {
+p, input {
   font-family: 'Roboto Condensed', sans-serif;
 }

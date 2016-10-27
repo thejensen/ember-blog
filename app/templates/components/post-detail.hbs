@@ -1,0 +1,20 @@
+<div class="post">  
+  <h3>Read on about {{post.title}}</h3>
+  <p>{{post.content}}</p>
+
+  <h4>Team:</h4>
+  <p>{{post.partners}}</p>
+
+  <h4>Earworm:</h4>
+  <p>{{post.song}}</p>
+
+  <img src={{post.image}} alt={{post.title}}/>
+
+  <h4>Comments:</h4>
+  <ul>
+    {{#each post.comments as |comment|}}
+      {{comment-tile comment=comment destroyComment="destroyComment"}}
+    {{/each}}
+  </ul>
+
+</div>
